@@ -1,5 +1,5 @@
 ## About
-Golang 实现简易 gRPC Server
+Golang 实现简易 gRPC Server, 让客户端与服务端能进行业务交互
 
 ## Usage
 ```
