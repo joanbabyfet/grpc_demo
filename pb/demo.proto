@@ -1,0 +1,16 @@
+syntax = "proto3";
+package demo;
+option go_package = ".;demo";
+
+service Demo {
+  //SayHello方法, Unary一对一
+  rpc SayHello (HelloRequest) returns (HelloResp) {}
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResp {
+  string message = 1;
+}
